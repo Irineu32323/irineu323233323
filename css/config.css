@@ -1,0 +1,517 @@
+html
+{
+   scroll-behavior: smooth;
+}
+:target
+{
+   scroll-margin-top:100px;
+}
+body
+{
+    background-color:  black;
+    font-size: 1.3vw;
+}
+.cabe2
+{
+  visibility: hidden;
+}
+
+.cabe
+{
+   display: flex;
+   border: 3px solid white;
+   background: linear-gradient( to right, #4F4F53, #1A1259);
+   padding-top: 30px;
+}
+.cabe img
+{
+    width: 100%;
+    height: 55vw;
+    position:relative;
+    left: 60px;
+    border-radius: 100%;
+    bottom: 10px;
+}
+.img1
+{
+  visibility: hidden ;
+}
+.prod
+{
+   display:block;
+   
+   border-bottom: 2px  solid rgb(255, 255, 255);
+   background-color: rgb(0, 0, 0);
+}
+.prod h3
+{
+   
+   color: white;
+   font-size: 6.3vw;
+   position: relative;
+   left: 120px;
+   top: 5px;
+}
+ .prod img
+ {
+   width:80%;
+   height: 50%;
+   padding-top: 30px;
+   margin-left: 40px;
+   position: relative;
+   bottom: 10px;
+   right: 5px;
+ }
+ .prod div
+ {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  position: relative;
+  bottom: 30px;
+ }
+ .sobre
+ {
+   display: block;
+   border-bottom:2px solid rgb(255,255,255);
+   color: rgb(255,255,255);
+   margin-bottom: 10px;
+   font-size: 5vw;
+ }
+ .sobre img
+ {
+  width: 50%;
+   border-radius: 90%;
+   margin-left: 90px;
+   margin-top: 30px;
+ }
+ .sobre h3
+ {
+   font-size:7vw;
+   margin-left: 150px;
+   
+ }
+ .sobre p
+ {
+    text-decoration: underline rgb(255,255,255);
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+ }
+ .sobre div
+ {
+   border-bottom: 2px solid rgb(255,255,255); 
+ }
+ .mapa
+ {
+   border-bottom: 2px solid rgb(255, 255, 255);
+ }
+ .mapa h3
+ {
+   font-size: 5vw;
+   color: aliceblue;
+   position: relative;
+   left: 160px;
+   bottom: 10px;
+ }
+ .mapa div
+ {
+   border-bottom:2px solid white;
+   position: relative;
+   bottom: 10px;
+
+ }
+ .mapa a img
+ {
+   width: 80%;
+   margin-left: 40px;
+   margin-bottom:20px;
+ }
+ .redes
+ {
+   border-bottom: 2px solid rgb(255,255,255);
+   display: list-item;
+   padding-right: 25px;
+   padding-left: 10px;
+ }
+ .redes h3
+ {
+   font-size: 5vw;
+   color: white;
+   position: relative;
+   left: 150px;
+   top: 30px;
+ }
+ .redes li
+ {
+   color: aliceblue;
+   font-size: 5vw;
+ }
+ .teste
+ {
+   position: relative;
+   top: 10px;
+   
+ }
+ .teste li
+ {
+  position: relative;
+  left: 40px;
+  top: 15px;
+  border-right: 2px solid rgb(255,255,255);
+ 
+ }
+ 
+ .teste1
+ {
+   position:relative;
+   left: 250px;
+   bottom: 62px;
+ }
+ .teste1 li
+ {
+  position: relative;
+  bottom: 20px;
+  left: 60px;
+ 
+ }
+ .rede
+ {
+    z-index: 0px;
+ }
+ .cor1
+ {
+   position: relative;
+   background: linear-gradient(to right,#2c2c2c,#5535AA);
+   left: 5px;
+   bottom: 10px;
+   border-radius: 20%;
+   display:flexbox;
+}
+.redes p
+{
+   font-size: 5vw;
+   position: relative;
+   left: 80px;
+   bottom: 60px;
+   color: #54F954;
+}
+.whatscor li
+{
+  color: #FDB2B2;
+}
+.telcor li
+{
+  color: #ABFCAB
+}
+.facebook
+{
+  list-style: url(../imagens/icons8-facebook-novo-48.png);
+  color: rgb(253, 24, 24);
+}
+.instagram
+{
+  list-style: url(../imagens/icons8-instagram-48.png);
+}
+.whatsapp
+{
+  list-style: url(../imagens/icons8-whatsapp-35.png);
+}
+.telefone
+{
+  list-style: url(../imagens/icons8-telefone-48.png);
+}
+
+.letrah
+{
+  border-bottom: 2px solid white;
+}
+.miss
+{
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+.miss h3{
+  color: white;
+  font-size: 8vw;
+  position: relative;
+  left: 90px;
+  bottom: 5px;
+}
+.misvi img
+{
+ position: relative;
+ left:110px;
+ 
+  border-radius: 25%;
+}
+
+.misvi img:hover
+{
+  box-shadow: 0px 0px 10px 5px rgb(150,150,150);
+  cursor: pointer;
+}
+
+.aba
+{
+  width: 100%;
+  border-bottom:2px solid rgb(255,255,255);
+  background-color: rgb(255,255,255);
+  display: none;
+  transition: all 0.5s;
+  position:relative;
+  border: 2px solid rgb(155, 155, 155);
+  border-radius: 10%;
+}
+
+
+.aba li
+{
+  list-style: url(../imagens/icons8-motocicleta-30.png);
+  font-size: 4vw;
+  font-family: sans-serif;
+  font-style: italic;
+  position: relative;
+  text-decoration: underline;
+}
+.abaconfig 
+{
+  background-color: white;
+  
+}
+.li1conf
+{
+  position: relative;
+  right: 10px;
+  color: rgb(94, 4, 112);
+}
+.li2conf
+{
+  position: relative;
+  right: 10px;
+  color: rgb(94, 4, 112);
+}
+.li3conf
+{
+  position: relative;
+  right:5px;
+  color: rgb(94,4,112);
+  font-style: oblique;
+  box-shadow: 0px 0px 3px 1px rgb(150,150,150);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animation
+{
+  border-bottom: 2px solid rgb(255,255,255);
+}
+.animation h3
+{
+  position: relative;
+  color: white;
+  font-size: 7vw;
+  left: 100px;
+}
+.animation div
+{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  height: 10%;
+}
+.animation p
+{
+  font-size: 7vw;
+  color: white;
+  position: relative;
+  left: 30px;
+}
+.animation button
+{
+  border-radius: 45%;
+  font-size: 5vw;
+  position: relative;
+  bottom: 10px;
+  height: 10%;
+  color: rgb(3, 3, 3);
+  background-color: rgb(255,255,255);
+}
+.fim
+{
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.fim h3
+{
+  color: white;
+  font-size: 8vw;
+  position: relative;
+  left: 45px;
+}
+.configabas
+{
+  color: rgb(255,255,255);
+  font-size: 8vw;
+  list-style:circle;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.fim li:hover
+{
+  text-decoration: underline white;
+}
+
+
+@media(min-width:1008px)
+{
+  .cabe2
+  {
+    visibility: visible;
+  }
+  .img1
+  {
+    display: none;
+    visibility: hidden;
+  }
+  .img2
+  {
+    visibility: visible;
+  }
+  .button1{
+    display: none;
+  }
+  .button_2{
+    display:none;
+  }
+  
+ 
+   .cabe img
+    {
+      width: 10%;
+      height: 10%; 
+      border-radius: 45%;
+      position: relative;
+      bottom: 15px;
+    }
+    .cabe a
+    {
+      display: inline;
+      font-size: 30px;
+      position: relative;
+      left: 120px;
+      top: 30px;
+      padding: 5px;
+      color: white;
+    }
+    .prod h3
+    {
+      font-size: 7vw;
+      display:  inline;
+      position: relative;
+      left: 350px;
+    }
+    .prod img
+    {
+      display: inline-flex;
+      width: 30%;
+    }
+    
+    
+    .sobre img
+    {
+      width: 40%;
+   
+      position: relative;
+      left: 260px;
+    }
+    .sobre p
+    {
+      display: inline-flex;
+      font-size: 3vw;
+    }
+
+    .mapa
+    {
+      display:none;
+    }
+    .redes
+    {
+      display: none;
+    }
+
+    .miss h3
+    {
+     margin-top: -100px;
+      font-size: 6vw;
+      margin-bottom: 10px;
+    }
+    .aba
+    {
+      width: 100%;
+    }
+    .aba li
+    {
+      font-size: 2vw;
+      border-radius: 0%;
+    }
+    
+    .borderh3{
+      border-bottom: 2px solid rgb(255,255,255);
+    }
+    .fim h3
+    {
+      font-size: 5vw;
+    }
+    .fim li
+    {
+      width: 30%;
+      font-size: 3vw;
+      border-right: 2px solid rgb(255,255,255);
+    }
+    .mpdesk
+    {
+      width: 40%;
+      position: relative;
+      left: 450px;
+      bottom: 400px;
+      border-left: 2px solid rgb(255,255,255);
+      border-right: 2px solid rgb(255,255,255);
+    }
+    .contatos
+    {
+      position: relative;
+      color: white;
+      left:1050px;
+      bottom: 690px;
+    }
+    .facebook
+    {
+      display: list-item;
+    }
+    .whatsapp
+    {
+      display: list-item;
+    }
+    .instagram
+    {
+      display: list-item;
+    }
+    .telefone
+    {
+      display: list-item;
+    }
+    footer
+    {
+      border-bottom: 2px solid rgb(255,255,255);
+      padding-bottom: -100px;
+    }
+}  
+

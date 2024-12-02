@@ -1,0 +1,86 @@
+.abri
+{
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    left: 0;
+    top:0;
+    overflow-x:hidden;
+    transition: all 0.5s;
+    position:fixed;
+    
+    /* Overflow-x:Hidden; (esconde o fundo e não o deixa interagir com o cenário)
+    Z-index:9; garante o espaçamento entre as áreas
+    */    
+}
+.ajusm
+{
+    display: block;
+    position: relative;
+    background-color: white;
+}
+
+.ajusm li
+{
+    list-style: url(../imagens/icons8-motocicleta-30.png);
+    padding-top: 4%;
+}
+.ajusm a
+{
+    font-size: 4.3vw;
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration:none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    border: 0px solid gray;
+    text-decoration: underline rgb(1,1,1);
+}
+
+.ajusm a:hover
+{
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: underline white;
+}
+.button1
+{
+    border: 10px unset rgb(117, 117, 117);
+    border-radius: 100%;
+    position:fixed;
+    padding-top: 30px;
+    padding-left: 10px;
+    visibility: visible;
+    position: fixed;
+    left: 410px;
+}  
+.button1 img
+{
+    width: 60px;
+    height: 60px;
+   z-index: 100;
+}
+.button_1
+{
+    border: 10px unset rgb(117, 117, 117);
+    border-radius: 100%;
+    position:relative;
+    padding-top: 75px;
+    padding-left: 40px;
+    visibility: hidden;
+    overflow:scroll;
+    z-index: 10;
+}
+.button_1 img
+{
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+}
+
+@media(max-width:1440px)
+{
+    
+}

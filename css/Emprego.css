@@ -1,0 +1,91 @@
+body
+{
+    background: linear-gradient(to left, rgb(0, 0, 0),rgb(241, 146, 237),rgb(50, 2, 56));
+}
+.h3emp
+{
+
+    color: rgb(0, 0, 0);
+    font-size: 8vw;
+}
+
+.empre
+{
+    border: 2px solid white;
+    border-radius: 15%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(150,150,150),rgb(240,240,240));
+}
+.empre legend
+{
+    color: white;
+    border-radius: 15%;
+    border: 2px solid rgb(255,255,255);
+    background:  linear-gradient(to left, rgb(148, 148, 148), rgb(92, 91, 91), rgb(26, 26, 26));
+}
+.p1,.p2,.p3
+{
+    font-size: 5vw;
+    color: rgb(0, 0, 0);  
+    font-style: italic;
+    text-decoration: underline rgb(15,15,15);
+    text-align: center;
+}
+.empre h3
+{
+    text-decoration: underline rgb(0, 0, 0);
+    font-size: 6vw;
+    text-shadow: 0px 0px 6px 3px rgb(255, 253, 253);
+}
+.aviso
+{
+    width: 30%;
+    height: 15%;
+    border-radius: 15%;
+    color: blueviolet;
+    font-size: 5vw;
+    cursor: pointer;
+}
+.aviso:hover
+{
+    background-color: gray;
+    text-decoration: underline black;
+    box-shadow: 0px 0px 10px 5px red;
+    color: white;
+}
+.voltar
+{
+    width: 30%;
+    height: 15%;
+    border-radius: 15%;
+    color: blueviolet;
+    font-size: 5vw;
+    cursor: pointer;
+}
+.voltar:hover
+{
+    background-color: gray;
+    text-decoration: underline black;
+    box-shadow: 0px 0px 10px 5px rgb(0, 255, 42);
+    color: white;
+}
+
+@media(min-width:1008px)
+{
+    .h3emp
+    {
+        font-size: 4vw;
+    }
+    .p1,.p2,.p3
+    {
+        font-size: 3vw;
+    }
+    .aviso
+    {
+        font-size: 2vw;
+    }
+    .voltar
+    {
+        font-size: 2vw;
+    }
+}

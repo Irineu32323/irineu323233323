@@ -1,0 +1,135 @@
+body
+{
+    background: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(78, 6, 75) );
+}
+.preciso fieldset
+{
+    border: 2px solid rgb(255,255,255);
+    border-radius: 15%;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+.preciso legend
+{
+    border: 2px solid rgb(255,255,255);
+    border-radius: 35%;
+    font-size: 4vw;
+    padding: 5px;
+    background: black;
+    text-decoration: underline rgb(255,255,255);
+}
+.preciso
+{
+    color: white;
+}
+
+[id*="resp"]
+{
+   width: 100%;
+   height: 50%;
+}
+
+.pergunta
+{
+  font-size: 5vw;
+   font-style: italic;
+   visibility:visible;
+   cursor: pointer;
+   transition: 0.5s,0.5s easy;
+}
+
+.escondido
+{
+    width: 100%;
+    height: 0%;
+   visibility: hidden;
+   margin-left: 10%; 
+   text-align: center left;
+   border: 3px solid rgb(0,0,0);
+   background-color: rgb(255,255,255);
+   transition: 0.1s 0.1s ease
+}
+.exibida
+{
+    height: 10%;
+    width: 100%;
+    visibility: visible;
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: underline rgb(255,255,255);
+    transition: 0.5 ease;
+
+}
+
+.precd
+{
+    border-top:  2px solid rgb(255,255,255);
+    border-bottom: 2px solid rgb(255,255,255);
+    text-align: center;
+}
+.precd h3
+{
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-style: italic;
+}
+textarea
+{
+    width: 80%;
+    resize: none;
+    border-radius: 5% ;
+    background-color: rgba(219, 219, 219, 0.966);
+    margin-left: 10%;
+    position: relative;
+    right: 20px;
+}
+.btt1,.btt2
+{
+    width: 30%;
+    border-radius: 15%;
+    font-size: 5vw;
+}
+
+.btt3
+{
+    border-radius: 15%;
+    font-size: 5vw;
+    color: black;
+}
+
+.btt3:hover
+{
+    box-shadow: 0px 0px 10px 5px rgb(255,255,255);
+    background: gray;
+    color: black;
+    text-decoration: black;
+}
+
+@media (min-width:1008px)
+{
+    .preciso legend 
+    {
+        font-size: 2vw;
+    }
+    .pergunta
+    {
+        font-size: 3vw;
+    }
+    .exibida
+    {
+        font-size: 2vw;
+    }
+    .precd h3
+    {
+        font-size: 2vw;
+        text-decoration: underline rgb(255,255,255);
+    }
+    .btt3
+    {
+        font-size: 3vw;
+    }
+    .h3fin
+    {
+        font-size: 2vw;
+    }
+}

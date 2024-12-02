@@ -1,0 +1,92 @@
+body
+{
+    background: linear-gradient(to left, rgb(90, 90, 90), rgb(48, 2, 66));
+}
+.aprese
+{
+    border: 2px solid rgb(255,255,255);
+    background: black;    
+}
+.aprese h3
+{
+    color: white;
+    font-size: 8vw;
+    position:relative;
+    font-family: sans-serif;
+    font-style: italic;
+    left: 150px;
+}
+
+.parce
+{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+.parce p
+{
+    font-size: 5vw;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline rgb(0,0,0);
+    display: none; 
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.parce img
+{
+    width: 50%;
+    height: 30%;  
+    border-radius: 50%; 
+    position: relative;
+    cursor: pointer;
+    left: 120px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.parce img:hover
+{
+    box-shadow: 0px 0px 10px 5px rgb(150,150,150);
+}
+
+.btt1
+{
+    border-radius: 15%;
+    font-size: 7vw;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline rgb(0, 0, 0);
+    position: relative;
+    left: 190px;
+}
+.btt1 :hover
+{
+    background-color: gray;
+    box-shadow: 0px 0px 10px 5px rgb(160,160,160);
+}
+
+@media (min-width:1008px)
+{
+    .aprese h3
+    {
+        font-size: 4vw;
+        left: 550px ;
+    }
+    .parce img
+    {
+        left: 470px;
+        width: 30%;
+    }
+    .parce p
+    {
+        font-size: 3vw;
+    }
+    .btt1
+    {
+        font-size: 3vw;
+        left: 600px;
+    }
+}

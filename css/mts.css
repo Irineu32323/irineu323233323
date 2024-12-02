@@ -1,0 +1,103 @@
+body
+{
+    background: linear-gradient(to left bottom, rgb(0, 0, 0),rgb(55, 4, 68));
+}
+
+.produto
+{
+    border: 2px solid rgb(255,255,255);
+    background: linear-gradient(to left bottom, rgb(73, 10, 10),rgb(0, 0, 0));
+}
+
+.produto div
+{
+    border: 2px solid rgb(255,255,255);
+}
+
+.prod
+{
+    position: relative;
+    left: 90px;
+}
+.h3p2
+{
+    font-size: 7vw;
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+    position: relative;
+    left: 160px;
+}
+.produto li
+{
+    color: white;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 6vw;
+    text-decoration: underline white;
+}
+
+.btt1
+{
+    border-radius: 15%;
+    width: 40%;
+    height: 20%;
+    font-size: 6.5vw;
+    position: relative;
+    left: 270px;
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration: underline rgb(255,255,255);
+    background: linear-gradient(to left, rgb(114, 236, 89),rgb(2, 46, 13));
+    color: white;
+    cursor: pointer;
+}
+.btt1:hover
+{
+    background-color: gray;
+    text-decoration: underline black;
+    color: black;
+    box-shadow: 0px 0px 10px 5px rgb(12, 44, 10);
+}
+
+.produ
+{
+    width: 60%;
+    position: relative;
+    left: 80px;
+}
+
+@media(min-width:1008px)
+{
+    .prod 
+    {
+        width: 40%;
+        border-radius: 35%;
+        left: 410px;
+        bottom: 30px;
+        height: 50%;
+    }
+    .h3p2
+    {
+        left: 490px;
+        font-size: 5vw;
+    }
+    .produto li
+    {
+        font-size: 6vw;
+        left:80px;
+        list-style: inside;
+    }
+    .produ
+    {
+        width: 50%;
+        position: relative;
+        left: 310px;
+        border-radius: 35%;
+    }
+    #bt1
+    {
+        position: relative;
+        left: 420px;
+    }
+}

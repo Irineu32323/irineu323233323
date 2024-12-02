@@ -1,0 +1,32 @@
+.carros
+{
+    border-top: 2px  solid rgb(255, 255, 255);
+    border-bottom: 2px  solid rgb(255, 255, 255);
+    padding-bottom: 5%;
+
+    
+
+}
+.carros img
+{
+    width: 50%;
+    height: 30%;   
+    position: relative;
+    left: 46px;
+    top: 5px;
+}
+.passa
+{
+    box-shadow:  5px 5px 5px 5px rgb(255, 255, 255);
+    position: relative;
+    right: 30px;
+}    
+
+@media(max-width:1440px)
+{
+    .carros img
+    {
+        width: 80%;
+        height: 80%;
+    }
+}

@@ -1,0 +1,57 @@
+.hist
+{
+    background-color: black;
+    text-align: center;
+}
+.hist p
+{
+    color: white;
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-style: inherit;
+}
+
+.hist img
+{
+  border-radius: 35%;
+  box-shadow: 0px 0px 15px 8px rgb(150,150,150);
+}
+
+.hist legend
+{
+    background: linear-gradient(to bottom left, rgb(201, 201, 201), rgb(148, 148, 148));
+    font-size: 5vw;
+    border-radius: 35%;
+    color: white;
+}   
+
+.playhist
+{
+  text-decoration: underline rgb(5, 21, 94);
+}
+
+.back
+{
+    border-radius: 30%;
+    width: 30%;
+    height: 10%;
+    font-size: 5vw;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+}
+@media (min-width:1008px)
+{
+ .hist p
+ {
+  font-size: 2vw;
+ } 
+ .hist legend
+ {
+  font-size: 2vw;
+ }
+ .back
+ {
+  font-size: 2vw ;
+ }
+}

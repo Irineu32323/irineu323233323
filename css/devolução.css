@@ -1,0 +1,133 @@
+body
+{
+    background: linear-gradient(to left top, rgb(0,0,0), rgb(66, 4, 78));
+}
+
+.h3p
+{
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: underline rgb(150,150,150);
+    color: white;
+}
+
+.p
+{
+    font-size: 3.5vw;
+    text-align: center;
+    text-decoration: dotted;
+    color: white;
+}
+
+fieldset
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+legend
+{
+    font-size: 5vw;
+    color: white;
+    text-decoration: underline white;
+    font-family: sans-serif;
+    font-style: italic;
+    background: linear-gradient(to left, rgb(36, 36, 36), rgb(150,150,150));
+    border-radius: 15%;   
+}
+.sepa
+{
+    width: 100%;
+    border: 2px solid rgb(255,255,255);
+    text-align: center;
+}
+.sepa h3
+{
+    font-size: 5vw;
+    color: white;
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration: underline white;
+}
+label
+{
+    color: white;
+}
+textarea
+{
+    width: 80%;
+    resize: none;
+}
+.arqui 
+{
+    width: 80%;
+    background-color: white ;
+    color: black;
+    position: relative;
+    left: 50px;
+}
+.arqui label
+{
+    color: black;
+    font-size: 4vw;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.btt1, .btt2
+{
+    border-radius: 15%;
+    width: 30%;
+}
+.btt3
+{
+    width: 30%;
+    font-size: 5vw;
+    border-radius: 35%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.btt3 :hover
+{
+    background-color: gray;
+    box-shadow: 0px 0px 10px 5px rgb(255,255,255);
+}
+.separar{
+    border: 2px solid rgb(0,0,0);
+    background: black;
+}
+
+@media(min-width:1008px)
+{
+    .btt3
+    {
+        font-size: 2vw;
+        width: 10%;
+    }
+    .dev legend
+    {
+        font-size: 3vw;
+    }
+     .h3p
+    {
+        font-size: 3vw;
+    }
+    .p
+    {
+        font-size: 2vw;
+    }
+    .sepa h3
+    {
+        font-size: 3vw;
+    }
+    .arqui label
+    {
+        font-size: 2vw;
+    }
+    .arqui
+    {
+        text-align: center;
+        left: 130px;
+    }
+}
